@@ -1,0 +1,19 @@
+   I have followed below steps :
+
+1. Create a New Project/Solution "Problem Statement2_BusinessRules"
+
+2. Added a Class Library Project OrderProcessing.
+
+3. Added a class Library Project OrderProcessing.Tests
+
+4. Install Unit test Nuget Packages into OrderProcessing.Tests.
+
+5. Follow TDD approach, First method wrote as a failure of test(Red)
+
+6. Start Writing OrderProcessing Project, Create a ICreateRule Interface with createRule() method declaration. Implement this interface for class. if tomorrow, we want to add a new Rule then just create a new class and implement IRule Interface. Follows Open Closed Principle.
+
+7. Create a Ipayment Interface with MakePayment() method declaration so that if any  new payment method is added just implement this interface.
+
+8. Every class is having only one Responsibility what they are responsible for, follows Single Responsibility Principle.
+
+9. Every class is implenting interface what they need, follows Interface Segregation Principle.
